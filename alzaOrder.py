@@ -680,7 +680,7 @@ class AlzaOrder:
 
 def main():
     # Example 1: Using credentials
-    # credentials = Credentials(username='exit-guts-district@duck.com', password='tinkling-flammable-smelting')
+    # credentials = Credentials(username='username', password='password')
     # alza_order_with_credentials = AlzaOrder(
     #     credentials=credentials,
     #     commodityId=12433839,
