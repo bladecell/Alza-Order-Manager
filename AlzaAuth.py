@@ -215,8 +215,8 @@ def main():
 
     
     credentials = {
-        'username': 'exit-guts-district@duck.com',
-        'password': 'tinkling-flammable-smelting'
+        'username': USERNAME,
+        'password': PASSWORD
     }
 
     if auth.login(**credentials):
