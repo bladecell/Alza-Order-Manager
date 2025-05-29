@@ -11,7 +11,7 @@ from fakeBrnoAddress import FakeBrnoAddress, Address
 from typing import Union
 import random
 import time
-from secrets import ADDY_API
+from secrets import ADDY_API, SCRAPEOPS_API
 # Delivery types
 ALZABOX = 1
 ALZA_PRODEJNA = 2
@@ -132,7 +132,7 @@ class AlzaOrder:
         response = requests.get(
         url='https://headers.scrapeops.io/v1/browser-headers',
         params={
-            'api_key': 'd4dcd27b-2424-4863-b6d2-016359f5f4ba',
+            'api_key': SCRAPEOPS_API,
             'num_results': '1'}
         )
 
